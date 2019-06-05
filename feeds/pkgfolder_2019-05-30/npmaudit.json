@@ -1,0 +1,1223 @@
+{
+    "actions": [
+        {
+            "action": "install",
+            "module": "jsforce",
+            "target": "1.9.1",
+            "isMajor": false,
+            "resolves": [
+                {
+                    "id": 663,
+                    "path": "jsforce>open",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 598,
+                    "path": "jsforce>faye>tunnel-agent",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "jsforce>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "install",
+            "module": "less",
+            "target": "3.9.0",
+            "isMajor": true,
+            "resolves": [
+                {
+                    "id": 566,
+                    "path": "less>request>hawk>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "less>request>hawk>cryptiles>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "less>request>hawk>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "less>request>hawk>sntp>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "install",
+            "module": "jsonwebtoken",
+            "target": "8.5.1",
+            "isMajor": true,
+            "resolves": [
+                {
+                    "id": 566,
+                    "path": "jsonwebtoken>joi>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "jsonwebtoken>joi>topo>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "install",
+            "module": "knex",
+            "target": "0.17.3",
+            "isMajor": false,
+            "resolves": [
+                {
+                    "id": 786,
+                    "path": "knex>liftoff>findup-sync>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "knex>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "install",
+            "module": "lodash",
+            "target": "4.17.11",
+            "isMajor": false,
+            "resolves": [
+                {
+                    "id": 782,
+                    "path": "lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "install",
+            "module": "axios",
+            "target": "0.19.0",
+            "isMajor": false,
+            "resolves": [
+                {
+                    "id": 880,
+                    "path": "axios",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "install",
+            "module": "sequelize",
+            "target": "5.8.7",
+            "isMajor": false,
+            "resolves": [
+                {
+                    "id": 821,
+                    "path": "sequelize",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "install",
+            "module": "bootstrap",
+            "target": "4.3.1",
+            "isMajor": true,
+            "resolves": [
+                {
+                    "id": 891,
+                    "path": "bootstrap",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "update",
+            "module": "lodash",
+            "depth": 8,
+            "target": "4.17.11",
+            "resolves": [
+                {
+                    "id": 782,
+                    "path": "passport-openid-connect>openid-client>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>@react-native-community/cli>inquirer>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>@react-native-community/cli>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>@react-native-community/cli>metro>metro-react-native-babel-preset>react-transform-hmr>react-proxy>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>@react-native-community/cli>metro>react-transform-hmr>react-proxy>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>@react-native-community/cli>metro-config>metro>metro-react-native-babel-preset>react-transform-hmr>react-proxy>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>@react-native-community/cli>metro-config>metro>react-transform-hmr>react-proxy>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>@react-native-community/cli>metro-react-native-babel-transformer>metro-react-native-babel-preset>react-transform-hmr>react-proxy>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>inquirer>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native>metro-react-native-babel-transformer>metro-react-native-babel-preset>react-transform-hmr>react-proxy>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "react-native-vector-icons>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "styled-components>babel-plugin-styled-components>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 782,
+                    "path": "ngx-infinite-scroll>opencollective>inquirer>lodash",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "review",
+            "module": "hoek",
+            "resolves": [
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-auth>request>hawk>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-auth>request>hawk>cryptiles>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-auth>request>hawk>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-auth>request>hawk>sntp>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-rest>fuel-auth>request>hawk>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-rest>fuel-auth>request>hawk>cryptiles>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-rest>fuel-auth>request>hawk>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-rest>fuel-auth>request>hawk>sntp>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-rest>request>hawk>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-rest>request>hawk>cryptiles>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-rest>request>hawk>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-rest>request>hawk>sntp>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-soap>fuel-auth>request>hawk>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-soap>fuel-auth>request>hawk>cryptiles>boom>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-soap>fuel-auth>request>hawk>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 566,
+                    "path": "fuelsdk-node>fuel-soap>fuel-auth>request>hawk>sntp>hoek",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "review",
+            "module": "fstream",
+            "resolves": [
+                {
+                    "id": 886,
+                    "path": "npm>libcipm>npm-lifecycle>node-gyp>fstream",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 886,
+                    "path": "npm>libcipm>npm-lifecycle>node-gyp>tar>fstream",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 886,
+                    "path": "npm>libnpm>npm-lifecycle>node-gyp>fstream",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 886,
+                    "path": "npm>libnpm>npm-lifecycle>node-gyp>tar>fstream",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 886,
+                    "path": "npm>node-gyp>fstream",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 886,
+                    "path": "npm>node-gyp>tar>fstream",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 886,
+                    "path": "npm>npm-lifecycle>node-gyp>fstream",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 886,
+                    "path": "npm>npm-lifecycle>node-gyp>tar>fstream",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                }
+            ]
+        },
+        {
+            "action": "review",
+            "module": "tar",
+            "resolves": [
+                {
+                    "id": 803,
+                    "path": "npm>libcipm>npm-lifecycle>node-gyp>tar",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 803,
+                    "path": "npm>libnpm>npm-lifecycle>node-gyp>tar",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 803,
+                    "path": "npm>node-gyp>tar",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                },
+                {
+                    "id": 803,
+                    "path": "npm>npm-lifecycle>node-gyp>tar",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                }
+            ]
+        },
+        {
+            "action": "review",
+            "module": "braces",
+            "resolves": [
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro>metro-cache>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro>metro-config>metro-cache>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro>metro-config>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro-config>metro>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro-config>metro>metro-cache>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro-config>metro>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro-config>metro-cache>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro-config>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 786,
+                    "path": "react-native>@react-native-community/cli>metro-core>jest-haste-map>micromatch>braces",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "review",
+            "module": "tunnel-agent",
+            "resolves": [
+                {
+                    "id": 598,
+                    "path": "fuelsdk-node>fuel-auth>request>tunnel-agent",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 598,
+                    "path": "fuelsdk-node>fuel-rest>fuel-auth>request>tunnel-agent",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 598,
+                    "path": "fuelsdk-node>fuel-rest>request>tunnel-agent",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 598,
+                    "path": "fuelsdk-node>fuel-soap>fuel-auth>request>tunnel-agent",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "review",
+            "module": "base64url",
+            "resolves": [
+                {
+                    "id": 658,
+                    "path": "passport-openid-connect>openid-client>base64url",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                },
+                {
+                    "id": 658,
+                    "path": "passport-openid-connect>openid-client>oidc-token-hash>base64url",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        },
+        {
+            "action": "review",
+            "module": "debug",
+            "resolves": [
+                {
+                    "id": 534,
+                    "path": "node-rest-client>debug",
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ]
+        }
+    ],
+    "advisories": {
+        "534": {
+            "findings": [
+                {
+                    "version": "2.2.0",
+                    "paths": [
+                        "node-rest-client>debug"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 534,
+            "created": "2017-09-25T18:55:55.956Z",
+            "updated": "2018-05-16T19:37:43.686Z",
+            "deleted": null,
+            "title": "Regular Expression Denial of Service",
+            "found_by": {
+                "name": "Cristian-Alexandru Staicu"
+            },
+            "reported_by": {
+                "name": "Cristian-Alexandru Staicu"
+            },
+            "module_name": "debug",
+            "cves": [
+                "CVE-2017-16137"
+            ],
+            "vulnerable_versions": "<= 2.6.8 || >= 3.0.0 <= 3.0.1",
+            "patched_versions": ">= 2.6.9 < 3.0.0 || >= 3.1.0",
+            "overview": "Affected versions of `debug` are vulnerable to regular expression denial of service when untrusted user input is passed into the `o` formatter. \n\nAs it takes 50,000 characters to block the event loop for 2 seconds, this issue is a low severity issue.",
+            "recommendation": "Version 2.x.x: Update to version 2.6.9 or later.\nVersion 3.x.x: Update to version 3.1.0 or later.\n",
+            "references": "- [Issue #501](https://github.com/visionmedia/debug/issues/501)\n- [PR #504](https://github.com/visionmedia/debug/pull/504)",
+            "access": "public",
+            "severity": "low",
+            "cwe": "CWE-400",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 5,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/534"
+        },
+        "566": {
+            "findings": [
+                {
+                    "version": "2.16.3",
+                    "paths": [
+                        "fuelsdk-node>fuel-auth>request>hawk>boom>hoek",
+                        "fuelsdk-node>fuel-auth>request>hawk>cryptiles>boom>hoek",
+                        "fuelsdk-node>fuel-auth>request>hawk>hoek",
+                        "fuelsdk-node>fuel-auth>request>hawk>sntp>hoek",
+                        "fuelsdk-node>fuel-rest>fuel-auth>request>hawk>boom>hoek",
+                        "fuelsdk-node>fuel-rest>fuel-auth>request>hawk>cryptiles>boom>hoek",
+                        "fuelsdk-node>fuel-rest>fuel-auth>request>hawk>hoek",
+                        "fuelsdk-node>fuel-rest>fuel-auth>request>hawk>sntp>hoek",
+                        "fuelsdk-node>fuel-rest>request>hawk>boom>hoek",
+                        "fuelsdk-node>fuel-rest>request>hawk>cryptiles>boom>hoek",
+                        "fuelsdk-node>fuel-rest>request>hawk>hoek",
+                        "fuelsdk-node>fuel-rest>request>hawk>sntp>hoek",
+                        "fuelsdk-node>fuel-soap>fuel-auth>request>hawk>boom>hoek",
+                        "fuelsdk-node>fuel-soap>fuel-auth>request>hawk>cryptiles>boom>hoek",
+                        "fuelsdk-node>fuel-soap>fuel-auth>request>hawk>hoek",
+                        "fuelsdk-node>fuel-soap>fuel-auth>request>hawk>sntp>hoek",
+                        "jsonwebtoken>joi>hoek",
+                        "jsonwebtoken>joi>topo>hoek",
+                        "less>request>hawk>boom>hoek",
+                        "less>request>hawk>cryptiles>boom>hoek",
+                        "less>request>hawk>hoek",
+                        "less>request>hawk>sntp>hoek"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 566,
+            "created": "2018-04-20T21:25:58.421Z",
+            "updated": "2019-02-14T16:00:33.922Z",
+            "deleted": null,
+            "title": "Prototype Pollution",
+            "found_by": {
+                "name": "HoLyVieR"
+            },
+            "reported_by": {
+                "name": "HoLyVieR"
+            },
+            "module_name": "hoek",
+            "cves": [],
+            "vulnerable_versions": "<= 4.2.0 || >= 5.0.0 < 5.0.3",
+            "patched_versions": "> 4.2.0 < 5.0.0 || >= 5.0.3",
+            "overview": "Versions of `hoek` prior to 4.2.1 and 5.0.3 are vulnerable to prototype pollution.\n\nThe `merge` function, and the `applyToDefaults` and `applyToDefaultsWithShallow` functions which leverage `merge` behind the scenes, are vulnerable to a prototype pollution attack when provided an _unvalidated_ payload created from a JSON string containing the `__proto__` property.\n\nThis can be demonstrated like so:\n\n```javascript\nvar Hoek = require('hoek');\nvar malicious_payload = '{\"__proto__\":{\"oops\":\"It works !\"}}';\n\nvar a = {};\nconsole.log(\"Before : \" + a.oops);\nHoek.merge({}, JSON.parse(malicious_payload));\nconsole.log(\"After : \" + a.oops);\n```\n\nThis type of attack can be used to overwrite existing properties causing a potential denial of service.",
+            "recommendation": "Update to version 4.2.1, 5.0.3 or later.",
+            "references": "",
+            "access": "public",
+            "severity": "moderate",
+            "cwe": "CWE-471",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 5,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/566"
+        },
+        "598": {
+            "findings": [
+                {
+                    "version": "0.4.3",
+                    "paths": [
+                        "fuelsdk-node>fuel-auth>request>tunnel-agent",
+                        "fuelsdk-node>fuel-rest>fuel-auth>request>tunnel-agent",
+                        "fuelsdk-node>fuel-rest>request>tunnel-agent",
+                        "fuelsdk-node>fuel-soap>fuel-auth>request>tunnel-agent",
+                        "jsforce>faye>tunnel-agent"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 598,
+            "created": "2018-04-24T20:30:16.099Z",
+            "updated": "2018-04-24T20:31:15.816Z",
+            "deleted": null,
+            "title": "Memory Exposure",
+            "found_by": {
+                "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447"
+            },
+            "reported_by": {
+                "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447"
+            },
+            "module_name": "tunnel-agent",
+            "cves": [],
+            "vulnerable_versions": "<0.6.0",
+            "patched_versions": ">=0.6.0",
+            "overview": "Versions of `tunnel-agent` before 0.6.0 are vulnerable to memory exposure.\n\nThis is exploitable if user supplied input is provided to the auth value and is a number.\n\nProof-of-concept:\n```js\nrequire('request')({\n  method: 'GET',\n  uri: 'http://www.example.com',\n  tunnel: true,\n  proxy:{\n    protocol: 'http:',\n    host:'127.0.0.1',\n    port:8080,\n    auth:USERSUPPLIEDINPUT // number\n  }\n});\n```",
+            "recommendation": "Update to version 0.6.0 or later.",
+            "references": "- [GitHub Commit #9ca95ec](https://github.com/request/tunnel-agent/commit/9ca95ec7219daface8a6fc2674000653de0922c0)\n- [Proof of Concept](https://gist.github.com/ChALkeR/fd6b2c445834244e7d440a043f9d2ff4)",
+            "access": "public",
+            "severity": "moderate",
+            "cwe": "CWE-20",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 3,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/598"
+        },
+        "658": {
+            "findings": [
+                {
+                    "version": "2.0.0",
+                    "paths": [
+                        "passport-openid-connect>openid-client>base64url",
+                        "passport-openid-connect>openid-client>oidc-token-hash>base64url"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 658,
+            "created": "2018-05-16T19:16:37.120Z",
+            "updated": "2018-05-16T19:17:38.115Z",
+            "deleted": null,
+            "title": "Out-of-bounds Read",
+            "found_by": {
+                "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447"
+            },
+            "reported_by": {
+                "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447"
+            },
+            "module_name": "base64url",
+            "cves": [],
+            "vulnerable_versions": "<3.0.0",
+            "patched_versions": ">=3.0.0",
+            "overview": "Versions of `base64url` before 3.0.0 are vulnerable to to out-of-bounds reads as it allocates uninitialized Buffers when number is passed in input on Node.js 4.x and below.",
+            "recommendation": "Update to version 3.0.0 or later.",
+            "references": "- [HackerOne Report](https://hackerone.com/reports/321687)\n- [PR #25](https://github.com/brianloveswords/base64url/pull/25\")",
+            "access": "public",
+            "severity": "moderate",
+            "cwe": "CWE-125",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 2,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/658"
+        },
+        "663": {
+            "findings": [
+                {
+                    "version": "0.0.5",
+                    "paths": [
+                        "jsforce>open"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 663,
+            "created": "2018-05-16T19:36:39.832Z",
+            "updated": "2019-03-29T19:48:20.059Z",
+            "deleted": null,
+            "title": "Command Injection",
+            "found_by": {
+                "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447"
+            },
+            "reported_by": {
+                "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447"
+            },
+            "module_name": "open",
+            "cves": [],
+            "vulnerable_versions": "<=0.0.5",
+            "patched_versions": ">0.0.5",
+            "overview": "Versions of `open` before 6.0.0 are vulnerable to command injection when unsanitized user input is passed in.\n\nThe package does come with the following warning in the readme:\n\n```\nThe same care should be taken when calling open as if you were calling child_process.exec directly. If it is an executable it will run in a new shell.\n```",
+            "recommendation": "`open` is now the deprecated `opn` package. Upgrading to the latest version is likely have unwanted effects since it now has a very different API but will prevent this vulnerability.",
+            "references": "- [HackerOne Report](https://hackerone.com/reports/319473)",
+            "access": "public",
+            "severity": "critical",
+            "cwe": "CWE-78",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 8,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/663"
+        },
+        "782": {
+            "findings": [
+                {
+                    "version": "4.17.10",
+                    "paths": [
+                        "jsforce>lodash",
+                        "passport-openid-connect>openid-client>lodash",
+                        "react-native>@react-native-community/cli>inquirer>lodash",
+                        "react-native>@react-native-community/cli>lodash",
+                        "react-native>@react-native-community/cli>metro>metro-react-native-babel-preset>react-transform-hmr>react-proxy>lodash",
+                        "react-native>@react-native-community/cli>metro>react-transform-hmr>react-proxy>lodash",
+                        "react-native>@react-native-community/cli>metro-config>metro>metro-react-native-babel-preset>react-transform-hmr>react-proxy>lodash",
+                        "react-native>@react-native-community/cli>metro-config>metro>react-transform-hmr>react-proxy>lodash",
+                        "react-native>@react-native-community/cli>metro-react-native-babel-transformer>metro-react-native-babel-preset>react-transform-hmr>react-proxy>lodash",
+                        "react-native>inquirer>lodash",
+                        "react-native>lodash",
+                        "react-native>metro-react-native-babel-transformer>metro-react-native-babel-preset>react-transform-hmr>react-proxy>lodash",
+                        "react-native-vector-icons>lodash",
+                        "styled-components>babel-plugin-styled-components>lodash",
+                        "knex>lodash",
+                        "lodash",
+                        "ngx-infinite-scroll>opencollective>inquirer>lodash"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 782,
+            "created": "2019-02-13T16:16:53.770Z",
+            "updated": "2019-02-13T16:16:53.770Z",
+            "deleted": null,
+            "title": "Prototype Pollution",
+            "found_by": {
+                "link": "",
+                "name": "asgerf"
+            },
+            "reported_by": {
+                "link": "",
+                "name": "asgerf"
+            },
+            "module_name": "lodash",
+            "cves": [
+                "CVE-2018-16487"
+            ],
+            "vulnerable_versions": "<4.17.11",
+            "patched_versions": ">=4.17.11",
+            "overview": "Versions of `lodash` before 4.17.5 are vulnerable to prototype pollution. \n\nThe vulnerable functions are 'defaultsDeep', 'merge', and 'mergeWith' which allow a malicious user to modify the prototype of `Object` via `{constructor: {prototype: {...}}}` causing the addition or modification of an existing property that will exist on all objects.\n\n",
+            "recommendation": "Update to version 4.17.11 or later.",
+            "references": "- [HackerOne Report](https://hackerone.com/reports/380873)",
+            "access": "public",
+            "severity": "moderate",
+            "cwe": "CWE-471",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 3,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/782"
+        },
+        "786": {
+            "findings": [
+                {
+                    "version": "1.8.5",
+                    "paths": [
+                        "react-native>@react-native-community/cli>metro>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro>metro-cache>metro-core>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro>metro-config>metro-cache>metro-core>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro>metro-config>metro-core>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro>metro-core>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro-config>metro>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro-config>metro>metro-cache>metro-core>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro-config>metro>metro-core>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro-config>metro-cache>metro-core>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro-config>metro-core>jest-haste-map>micromatch>braces",
+                        "react-native>@react-native-community/cli>metro-core>jest-haste-map>micromatch>braces",
+                        "knex>liftoff>findup-sync>micromatch>braces"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 786,
+            "created": "2019-02-15T21:44:30.680Z",
+            "updated": "2019-04-02T18:18:29.356Z",
+            "deleted": null,
+            "title": "Regular Expression Denial of Service",
+            "found_by": {
+                "link": "",
+                "name": "Santosh Rao"
+            },
+            "reported_by": {
+                "link": "",
+                "name": "Santosh Rao"
+            },
+            "module_name": "braces",
+            "cves": [],
+            "vulnerable_versions": "<2.3.1",
+            "patched_versions": ">=2.3.1",
+            "overview": "Versions of `braces` prior to 2.3.1 are vulnerable to Regular Expression Denial of Service (ReDoS). Untrusted input may cause catastrophic backtracking while matching regular expressions. This can cause the application to be unresponsive leading to Denial of Service.",
+            "recommendation": "Upgrade to version 2.3.1 or higher.",
+            "references": "- [GitHub Commit](https://github.com/micromatch/braces/commit/abdafb0cae1e0c00f184abbadc692f4eaa98f451)",
+            "access": "public",
+            "severity": "low",
+            "cwe": "CWE-185",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 4,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/786"
+        },
+        "803": {
+            "findings": [
+                {
+                    "version": "2.2.1",
+                    "paths": [
+                        "npm>libcipm>npm-lifecycle>node-gyp>tar",
+                        "npm>libnpm>npm-lifecycle>node-gyp>tar",
+                        "npm>node-gyp>tar",
+                        "npm>npm-lifecycle>node-gyp>tar"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                }
+            ],
+            "id": 803,
+            "created": "2019-04-04T03:31:56.572Z",
+            "updated": "2019-05-15T14:13:58.612Z",
+            "deleted": null,
+            "title": "Arbitrary File Overwrite",
+            "found_by": {
+                "link": "",
+                "name": "Max Justicz"
+            },
+            "reported_by": {
+                "link": "",
+                "name": "Max Justicz"
+            },
+            "module_name": "tar",
+            "cves": [],
+            "vulnerable_versions": "<2.2.2 || >=3.0.0 <4.4.2",
+            "patched_versions": ">=2.2.2 <3.0.0 || >=4.4.2",
+            "overview": "Versions of `tar` prior to 4.4.2 for 4.x and 2.2.2 for 2.x are vulnerable to Arbitrary File Overwrite. Extracting tarballs containing a hardlink to a file that already exists in the system, and a file that matches the hardlink will overwrite the system's file with the contents of the extracted file.",
+            "recommendation": "For tar 4.x, upgrade to version 4.4.2 or later.\nFor tar 2.x, upgrade to version 2.2.2 or later.",
+            "references": "- [HackerOne Report](https://hackerone.com/reports/344595)",
+            "access": "public",
+            "severity": "high",
+            "cwe": "CWE-59",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 5,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/803"
+        },
+        "821": {
+            "findings": [
+                {
+                    "version": "5.2.8",
+                    "paths": [
+                        "sequelize"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 821,
+            "created": "2019-04-18T18:23:09.656Z",
+            "updated": "2019-04-18T18:43:33.351Z",
+            "deleted": null,
+            "title": "SQL Injection",
+            "found_by": {
+                "link": "",
+                "name": "maxdos64"
+            },
+            "reported_by": {
+                "link": "",
+                "name": "maxdos64"
+            },
+            "module_name": "sequelize",
+            "cves": [],
+            "vulnerable_versions": "<3.0.0 || >=5.0.0 <5.3.0",
+            "patched_versions": ">=3.0.0 <5.0.0 || >=5.3.0",
+            "overview": "Versions of `sequelize` prior to 5.3.0 (excluding v3 and v4) are vulnerable to SQL Injection. PostgreSQL option`standard_conforming_strings` is not set to `on` by default, which may allow attackers to inject SQL statements due to poor handling of backslashes in string literals.",
+            "recommendation": "Upgrade to version 5.3.0 or later.",
+            "references": "- [Github PR](https://github.com/sequelize/sequelize/pull/10746)\n- [Snyk Report](https://snyk.io/vuln/SNYK-JS-SEQUELIZE-174167)",
+            "access": "public",
+            "severity": "moderate",
+            "cwe": "CWE-89",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 5,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/821"
+        },
+        "880": {
+            "findings": [
+                {
+                    "version": "0.18.0",
+                    "paths": [
+                        "axios"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 880,
+            "created": "2019-05-06T19:14:45.155Z",
+            "updated": "2019-06-03T17:55:10.532Z",
+            "deleted": null,
+            "title": "Denial of Service",
+            "found_by": {
+                "link": "https://nornagon.net/",
+                "name": "Jeremy Apthorp"
+            },
+            "reported_by": {
+                "link": "https://nornagon.net/",
+                "name": "Jeremy Apthorp"
+            },
+            "module_name": "axios",
+            "cves": [],
+            "vulnerable_versions": "<0.18.1",
+            "patched_versions": ">=0.18.1",
+            "overview": "Versions of `axios` prior to 0.18.1 are vulnerable to Denial of Service. If a request exceeds the `maxContentLength` property, the package prints an error but does not stop the request. This may cause high CPU usage and lead to Denial of Service.",
+            "recommendation": "Upgrade to 0.18.1 or later.",
+            "references": "- [Github Issue](https://github.com/axios/axios/issues/1098)\n- [Snyk Report](https://snyk.io/vuln/SNYK-JS-AXIOS-174505)",
+            "access": "public",
+            "severity": "moderate",
+            "cwe": "CWE-400",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 4,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/880"
+        },
+        "886": {
+            "findings": [
+                {
+                    "version": "1.0.11",
+                    "paths": [
+                        "npm>libcipm>npm-lifecycle>node-gyp>fstream",
+                        "npm>libcipm>npm-lifecycle>node-gyp>tar>fstream",
+                        "npm>libnpm>npm-lifecycle>node-gyp>fstream",
+                        "npm>libnpm>npm-lifecycle>node-gyp>tar>fstream",
+                        "npm>node-gyp>fstream",
+                        "npm>node-gyp>tar>fstream",
+                        "npm>npm-lifecycle>node-gyp>fstream",
+                        "npm>npm-lifecycle>node-gyp>tar>fstream"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": true
+                }
+            ],
+            "id": 886,
+            "created": "2019-05-15T14:22:26.820Z",
+            "updated": "2019-05-15T14:24:19.890Z",
+            "deleted": null,
+            "title": "Arbitrary File Overwrite",
+            "found_by": {
+                "link": "",
+                "name": "Max Justicz"
+            },
+            "reported_by": {
+                "link": "",
+                "name": "Max Justicz"
+            },
+            "module_name": "fstream",
+            "cves": [],
+            "vulnerable_versions": "<1.0.12",
+            "patched_versions": ">=1.0.12",
+            "overview": "Versions of `fstream` prior to 1.0.12 are vulnerable to Arbitrary File Overwrite. Extracting tarballs containing a hardlink to a file that already exists in the system and a file that matches the hardlink will overwrite the system's file with the contents of the extracted file. The `fstream.DirWriter()` function is vulnerable.",
+            "recommendation": "Upgrade to version 1.0.12 or later.",
+            "references": "- [GitHub Commit](https://github.com/npm/fstream/commit/6a77d2fa6e1462693cf8e46f930da96ec1b0bb22)",
+            "access": "public",
+            "severity": "high",
+            "cwe": "CWE-59",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 5,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/886"
+        },
+        "891": {
+            "findings": [
+                {
+                    "version": "3.3.6",
+                    "paths": [
+                        "bootstrap"
+                    ],
+                    "dev": false,
+                    "optional": false,
+                    "bundled": false
+                }
+            ],
+            "id": 891,
+            "created": "2019-05-22T18:03:13.125Z",
+            "updated": "2019-05-22T18:30:21.846Z",
+            "deleted": null,
+            "title": "Cross-Site Scripting",
+            "found_by": {
+                "link": "https://www.drupal.org/u/poiu",
+                "name": "poiu"
+            },
+            "reported_by": {
+                "link": "https://www.drupal.org/u/markcarver",
+                "name": "Mark Carver"
+            },
+            "module_name": "bootstrap",
+            "cves": [
+                "CVE-2019-8331"
+            ],
+            "vulnerable_versions": "<3.4.1 || >=4.0.0 <4.3.1",
+            "patched_versions": ">=3.4.1 <4.0.0 || >=4.3.1",
+            "overview": "Versions of `bootstrap` prior to 3.4.1 for 3.x and 4.3.1 for 4.x are vulnerable to Cross-Site Scripting (XSS). The  `data-template` attribute of the tooltip and popover plugins lacks input sanitization and may allow attacker to execute arbitrary JavaScript.",
+            "recommendation": "For `bootstrap` 4.x upgrade to 4.3.1 or later.\nFor `bootstrap` 3.x upgrade to 3.4.1 or later.",
+            "references": "- [Bootstrap release](https://blog.getbootstrap.com/2019/02/13/bootstrap-4-3-1-and-3-4-1/)\n- [MITRE CVE report](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-8331)",
+            "access": "public",
+            "severity": "moderate",
+            "cwe": "CWE-116",
+            "metadata": {
+                "module_type": "",
+                "exploitability": 5,
+                "affected_components": ""
+            },
+            "url": "https://npmjs.com/advisories/891"
+        }
+    },
+    "muted": [],
+    "metadata": {
+        "vulnerabilities": {
+            "info": 0,
+            "low": 13,
+            "moderate": 49,
+            "high": 12,
+            "critical": 1
+        },
+        "dependencies": 44509,
+        "devDependencies": 0,
+        "optionalDependencies": 1178,
+        "totalDependencies": 45687
+    },
+    "runId": "3703fc62-53c7-457e-a034-5aa5cb021856"
+}
