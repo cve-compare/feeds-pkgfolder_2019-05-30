@@ -16,7 +16,7 @@
 		"fuelsdk-node": "2.1.0",
 		"jsforce": "1.8.4",
 		"node-rest-client": "3.1.0",
-		"npm": "6.9.0",
+		"npm": "6.13.4",
 		"path": "0.12.7",
 		"rquest": "0.1.0",
 		"@angular/http": "2.4.0",
