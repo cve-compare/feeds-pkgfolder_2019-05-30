@@ -21,7 +21,7 @@
 		"rquest": "0.1.0",
 		"@angular/http": "2.4.0",
 		"body-parser": "1.18.3",
-		"axios": "0.18.0",
+		"axios": "0.21.1",
 		"bcrypt": "3.0.6",
 		"connect-history-api-fallback": "1.6.0",
 		"cookie-parser": "1.4.4",
